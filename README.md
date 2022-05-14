@@ -1,6 +1,10 @@
-# E-Commerce Clothing Recommender System and Sales Forecasting
+# H&M Dress Finder App: Recommender Systems and Search Engine Matching
 
-**Data Source:** The data used for this project was part of a Kaggle competition hosted by the clothing company H&M.
+We provide <a href='https://github.com/hermanyu/hm-recommender-app'> a streamlit application </a> implementing the ideas and techniques discussed in this project.  
+
+<br>
+
+**Data Source:** The data used for this project was part of a <a href='https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations'> Kaggle competition </a> hosted by the clothing company H&M.
 
 ---
 
@@ -8,8 +12,15 @@
 
 # Problem Statement
 
-The rise of the internet over the last 20 years has revolutionized how human society conducts business on a fundamental level. As brick-and-mortar stores give way to e-commerce and online retail, there has been a torrent of data from user iteractions and user transactions. The fundamental question that all businesses must answer is this: how do we harness our companies enormous data stream to provide a more customized user experience and drive revenue growth?
+Recommender Systems sit at the crossroads of marketing/SEO, front-end development, back-end data management, UI/UX, and data science/machine learning theory. In this project, we shall tackle the problem of generating user recommendations from the perspective of Search Engine querying. Concretely, this project explores and implements the following 5 ideas:
+1. Popularity based recommendations. For example: Netflix's Top 10 Today.
+2. Co-occurrence based recommendations. For example: Amazon's "Users who bought this also bought..."
+3. Text-based feature querying. For example: Google/Amazon search bar.
+4. Image-based feature querying. For example: Google Image Search.
 
-Recommender Systems sit at the crossroads of marketing/SEO, front-end development, back-end data management, UI/UX, and data science/machine learning theory. The ultimate goal of any recommender system is to accurately determine what item a user is "most likely to buy next" and show the user that particular item. A good recommender system actively translates into revenue growth for online retailers and thus are of incredible interest to any business with an online prescence.
+We implement each of these ideas via a streamlit application which can be <a href='https://github.com/hermanyu/hm-recommender-app'> found here </a>. Since recommender systems are primarily client-facing, we attempt to demonstrate how each of these ideas can be deployed on a barebones webpage mimicing an e-commerce setting.
 
-The purpose of this project extract product features from 2 years worth of online transactional data from the clothing retailer H&M. We then use these extracted features to make recommendations to users.
+--- 
+
+# Background
+
