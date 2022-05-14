@@ -7,7 +7,7 @@ import matplotlib.pyplot as pl
 from torch.utils.data import Dataset, DataLoader
 
 
-def get_image(article_id):
+def get_image(article_id, path=None):
     id_string = '0'+str(article_id)
     folder = id_string[0:3]
     path = '../resized_128/'+folder+'/'+id_string+'.jpg'

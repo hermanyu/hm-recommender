@@ -8,7 +8,7 @@ import numpy as np
 
 import support_victor_machine as supp
 
-resizer = transforms.Compose([transforms.Resize((128, 96))])
+resizer = transforms.Compose([transforms.Resize((224, 224))])
 
 base_path = '../images/'
 
@@ -19,7 +19,7 @@ print(image_directories)
 for folder in image_directories:
     path = base_path+folder
     folder_files = os.listdir(path)
-    os.mkdir('../resized_128/'+folder)
+    os.mkdir('../images_224/'+folder)
     print('folder '+folder+' created')
     
     for file in folder_files:
@@ -33,5 +33,5 @@ for folder in image_directories:
         img = resizer(img)
         img = torch.div(img,255)
         
-        save_image(img, '../resized_128/'+folder+'/'+file)
+        save_image(img, '../images_224/'+folder+'/'+file)
     
