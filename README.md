@@ -18,7 +18,7 @@ Recommender Systems sit at the crossroads of marketing/SEO, front-end developmen
 3. Text-based feature querying. For example: Google/Amazon search bar.
 4. Image-based feature querying. For example: Google Image Search.
 
-We implement each of these ideas via a streamlit application which can be <a href='https://github.com/hermanyu/hm-recommender-app'> found here </a>. Since recommender systems are primarily client-facing, we attempt to demonstrate how each of these ideas can be deployed on a barebones webpage mimicing an e-commerce setting.
+We implement each of these ideas via a streamlit application which can be <a href='https://github.com/hermanyu/hm-recommender-app'> found here </a>. Since recommender systems are primarily client-facing, we demonstrate how each of these ideas can be deployed on a barebones webpage mimicing an e-commerce setting.
 
 --- 
 
